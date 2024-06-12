@@ -13,5 +13,6 @@ public class FindMiniNumber {
         double c = scn.nextDouble();
         FindSmallest objfind = new FindSmallest();
         System.out.println(objfind.smallest(a,b,c));
+        System.out.println(objfind.maximumnum(a,b,c));
     }
 }
