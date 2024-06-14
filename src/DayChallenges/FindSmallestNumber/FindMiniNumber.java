@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class FindMiniNumber {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Enter First Number: ");
+        System.out.println("Enter First Numb: ");
         double a = scn.nextDouble();
         System.out.println("Enter Second Number: ");
         double b = scn.nextDouble();
