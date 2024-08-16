@@ -20,6 +20,6 @@ public class SortingDSA {
                 }
             }
         }
-        System.out.println("Selection Sorting " +Arrays.toString(a));
+        System.out.println("Selection Sorting: " +Arrays.toString(a));
     }
 }
