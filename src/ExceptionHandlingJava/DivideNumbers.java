@@ -11,7 +11,7 @@ public class DivideNumbers {
     }
     public static int divideNumber(int dividend, int divisor){
         if(divisor == 0) {
-            throw new ArithmeticException("Cannot divide the given number by zero!");
+            throw new ArithmeticException("Cannot divide the given number by zero!!!");
         }
         return dividend / divisor;
     }
