@@ -8,12 +8,12 @@ public class Day02 {
     }
 }
 
-abstract class phone{
-    abstract void android();
+interface phone{
+     void android();
 }
 
-class samsungco extends phone{
-    void android(){
+class samsungco implements phone{
+    public void android(){
         System.out.println("Have Play Store");
         System.out.println("In here have Camera");
         System.out.println("Have net connection");
