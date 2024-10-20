@@ -8,6 +8,31 @@ public class Day04 {
         System.out.println(obj.empdetails());
         System.out.println(objnew.ofcid());
         System.out.println(objnew.empdetails());
+
+        staff objs = new staff();
+        objs.setName("Mohamed");
+        objs.setAge(24);
+        System.out.println("Name: " + objs.getName());
+        System.out.println("Age: " + objs.getAge());
+    }
+}
+
+class staff{
+    private String name;
+    private  int age;
+
+    public String getName(){
+        return name;
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public int getAge(){
+        return age;
+    }
+    public void setAge(int age){
+        this.age = age;
     }
 }
 
