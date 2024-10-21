@@ -14,9 +14,32 @@ public class Day04 {
         objs.setAge(24);
         System.out.println("Name: " + objs.getName());
         System.out.println("Age: " + objs.getAge());
+
+//        parent pobj;
+//        pobj = new subclass01();
+//        pobj.print();
+//        pobj = new subclass02();
+//        pobj.print();
     }
 }
 
+class parent{
+    void print(){
+        System.out.println("Parent Class");
+    }
+}
+
+class subclass01 extends parent{
+    void print(){
+        System.out.println("Subclass 01");
+    }
+}
+
+class subclass02 extends parent{
+    void print(){
+        System.out.println("Subclass 02");
+    }
+}
 class staff{
     private String name;
     private  int age;
