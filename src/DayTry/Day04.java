@@ -15,11 +15,11 @@ public class Day04 {
         System.out.println("Name: " + objs.getName());
         System.out.println("Age: " + objs.getAge());
 
-//        parent pobj;
-//        pobj = new subclass01();
-//        pobj.print();
-//        pobj = new subclass02();
-//        pobj.print();
+        parent pobj;
+        pobj = new subclass01();
+        pobj.print();
+        pobj = new subclass02();
+        pobj.print();
     }
 }
 
