@@ -28,7 +28,7 @@ public class Day05 {
                     // Prevent typing more than 5 characters
                     e.consume();
                 } else {
-                    feedbackLabel.setText("Characters typed: " + (text.length() + 1) + "/5");
+                    feedbackLabel.setText("Characters typed " + (text.length() + 1) + "/5");
                 }
             }
         });
